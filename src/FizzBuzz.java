@@ -2,9 +2,7 @@
 public class FizzBuzz {
 
 	public static void main(String[] args) {
-		int number = 0;
-		while (number < 100) {
-			number++;
+		for (int number = 1; number <= 100; number++) {
 			if (number % 15 == 0) {
 				System.out.println("FizzBuzz");
 			} else if (number % 3 == 0) {
